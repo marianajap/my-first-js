@@ -13,4 +13,15 @@ function pairs(number) {
     }
 }
 
+function odds(number) {
+    console.log("Odds");
+    for (let x = 1; x <= number; x++) {
+        if (x % 2 != 0) {
+            console.log(x);
+        }
+    }
+}
+
 pairs(number);
+console.log("");
+odds(number);
