@@ -5,11 +5,9 @@
 function displayTable(table) {
     console.log("Table of " + table);
     var multiply = 0;
-    var result;
-    
+
     while(multiply <= 10) {
-        result = table * multiply;
-        console.log(table + " X " + multiply + " = " + result);
+        console.log(`${table} X ${multiply} = ${table * multiply}`);
         multiply++;
     }
     console.log("");
