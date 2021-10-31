@@ -1,3 +1,8 @@
+/**
+ *  Muestra imagen de fruta seguido de nombre que hay dentro del 
+ *  array de frutas
+ * */ 
+
 var frutas = [
     {
         "nombre": "Kiwi",
